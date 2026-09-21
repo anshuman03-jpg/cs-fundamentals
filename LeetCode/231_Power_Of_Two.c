@@ -7,7 +7,7 @@
 =========================================
 */
 
-// LeetCode's exact function signature:
+
 bool isPowerOfTwo(int n) {
     // 1. 0 and negative numbers can never be powers of 2
     if (n <= 0) {

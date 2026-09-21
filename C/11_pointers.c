@@ -28,7 +28,9 @@ int main() {
     
     printf("--- YOUR TURN ---\n");
     // WRITE YOUR CODE HERE:
-    
+    float *gpa_pointer = &gpa;
+    printf("The address of gpa is : %p\n", gpa_pointer);
+    printf("The actual gpa is: %f\n", *gpa_pointer);
     
 
     return 0;
