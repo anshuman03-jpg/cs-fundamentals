@@ -2,7 +2,7 @@
 
 int main() {
     // 1. Declare the variables (Getting our boxes ready)
-    int age = 20;
+    int age = 19;
     float cgpa = 8.5;
     char grade = 'A';
 
@@ -19,7 +19,9 @@ int main() {
     // 2. Create a 'char' variable called 'favoriteLetter' and set it to the first letter of your name.
     // 3. Print both of them out using printf and the correct % specifiers!
     int graduationYear = 2029;
-    char favoriteLetter = "A";
+    char favoriteLetter = 'A';
+    printf("My graduation year is %d\n", graduationYear);
+    printf("The initial of my name is %c\n", favoriteLetter);
     
 
     return 0;
