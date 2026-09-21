@@ -169,7 +169,10 @@
 
 ---
 
+---
+
 ## 🏆 Competitive Programming Roadmap
+**Profile Link:** [https://leetcode.com/u/Anshuman_Duragkar/](https://leetcode.com/u/Anshuman_Duragkar/)
 
 | Phase | Platform | Focus Area |
 |-------|----------|------------|
