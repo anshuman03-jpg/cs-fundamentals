@@ -49,8 +49,6 @@ int main() {
 
     free(my_floats);
     printf("Memory freed!\n");
-    
-    
-    
+
     return 0;
 }
