@@ -21,7 +21,6 @@ int main() {
             printf("Action: Fetching student database...\n");
             break;
             
-        // --- TODO: YOUR TURN! ---
         // 1. Write the code for 'case 3:' to print a deletion message and 'break;'.
         // 2. Write the code for 'case 4:' to print "Exiting program..." and 'break;'.
         // 3. Write a 'default:' case. This triggers if the user enters a bad number (like 9). 

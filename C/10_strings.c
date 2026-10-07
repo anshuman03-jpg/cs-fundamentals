@@ -19,7 +19,6 @@ int main() {
     printf("Your name has %d letters.\n\n", length);
 
 
-    // --- TODO: YOUR TURN! ---
     char secret_word[] = "Programming";
     
     // 1. Create an integer variable to keep track of how many 'r's you find (start at 0).
@@ -31,7 +30,6 @@ int main() {
     // 5. Finally, print out how many 'r's were found!
     
     printf("--- YOUR TURN: Letter Counter ---\n");
-    // WRITE YOUR CODE HERE:
     int count  = 0;
     for(int i = 0; i<= strlen(secret_word); i++){
         if(secret_word[i]=='r'){

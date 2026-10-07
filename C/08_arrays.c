@@ -14,7 +14,6 @@ int main() {
     }
     printf("\n");
 
-    // --- TODO: YOUR TURN! ---
     int prices[5] = {10, 25, 5, 50, 10};
     int total_cost = 0;
 
@@ -22,7 +21,6 @@ int main() {
     // 2. Add each item to the 'total_cost' variable.
     // 3. Print out the final 'total_cost' after the loop finishes (it should be 100).
     
-    // WRITE YOUR CODE HERE:
     for(int i = 0; i<5; i++){
         total_cost  += prices[i];
     }

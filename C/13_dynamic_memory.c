@@ -28,15 +28,12 @@ int main() {
     printf("Memory freed!\n\n");
 
 
-    // --- TODO: YOUR TURN! ---
     // 1. Use malloc to allocate memory for an array of 5 floats.
     //    (Hint: float *my_floats = (float*)malloc(5 * sizeof(float)); )
     // 2. Put the number 3.14 into the very first slot (index 0).
     // 3. Print out that slot to prove it worked.
     // 4. Use free() to give the memory back!
     
-    printf("--- YOUR TURN ---\n");
-    // WRITE YOUR CODE HERE:
 
     float *my_floats = (float*)malloc(5*sizeof(float));
     if(my_floats == NULL){

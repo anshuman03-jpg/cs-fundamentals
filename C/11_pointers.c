@@ -19,15 +19,12 @@ int main() {
     // This is called "Dereferencing".
     printf("Value found at that address: %d\n\n", *age_pointer);
 
-    // --- TODO: YOUR TURN! ---
     float gpa = 8.5;
     
     // 1. Create a pointer for the 'gpa' variable. (Hint: float *gpa_pointer = ...)
     // 2. Print the memory address of 'gpa' using the pointer and the %p format specifier.
     // 3. Print the actual value of 'gpa' by "dereferencing" your pointer using the '*' symbol and %f.
     
-    printf("--- YOUR TURN ---\n");
-    // WRITE YOUR CODE HERE:
     float *gpa_pointer = &gpa;
     printf("The address of gpa is : %p\n", gpa_pointer);
     printf("The actual gpa is: %f\n", *gpa_pointer);

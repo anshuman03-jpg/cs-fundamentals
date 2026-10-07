@@ -13,7 +13,6 @@ int main() {
     }
     printf("\n");
 
-    // --- TODO: YOUR TURN! ---
     // Use nested loops to print a "square" of stars (*) that is 4 rows high and 4 columns wide.
     // It should look exactly like this:
     // ****
@@ -21,7 +20,6 @@ int main() {
     // ****
     // ****
     //
-    // HINT: 
     // for(int row = 1; row <= 4; row++) {
     //     for(int col = 1; col <= 4; col++) {
     //         printf("*"); // Prints a star without moving to a new line

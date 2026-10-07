@@ -14,7 +14,6 @@ int main() {
     printf("My CGPA is: %.1f\n", cgpa); // The .1 tells C to only print 1 decimal place!
     printf("My current grade is: %c\n", grade);
 
-    // --- TODO: YOUR TURN! ---
     // 1. Create an 'int' variable called 'graduationYear' and set it to your graduation year.
     // 2. Create a 'char' variable called 'favoriteLetter' and set it to the first letter of your name.
     // 3. Print both of them out using printf and the correct % specifiers!

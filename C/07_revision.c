@@ -4,7 +4,6 @@
 // Task: Prime Number Checker
 // A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
 
-// TODO: Write a function called 'is_prime'
 // 1. It must take an 'int num' as a parameter.
 // 2. It must return an 'int' (1 if it is prime, 0 if it is NOT prime).
 // 3. Inside, use a loop to check if 'num' is divisible by any number between 2 and (num - 1).

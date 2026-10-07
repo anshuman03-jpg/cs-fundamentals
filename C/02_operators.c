@@ -14,7 +14,6 @@ int main() {
     printf("Exam Score: %d\n", exam_score);
     printf("--------------------\n");
 
-    // --- TODO: YOUR TURN! ---
     // A student passes the semester IF:
     // 1. Their attendance is >= 75.0
     // AND

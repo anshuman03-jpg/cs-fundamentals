@@ -42,13 +42,11 @@ int main() {
     printf("My car is a %d %s worth $%.2f\n\n", myCar.year, myCar.brand, myCar.price);
 
     // --- TODO 2: YOUR TURN! ---
-    printf("--- YOUR TURN ---\n");
     // 1. Create a variable of type 'struct Student' (e.g., struct Student student1;)
     // 2. Use strcpy to give them a name.
     // 3. Assign an age and a GPA.
     // 4. Print out their details!
     
-    // WRITE YOUR CODE HERE:
     struct Student s1;
     strcpy(s1.name, "Anshuman Duragkar");
     s1.age = 19;

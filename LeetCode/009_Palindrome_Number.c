@@ -23,16 +23,12 @@ Output: false (Reads 01 from right to left. Therefore it is not a palindrome).
 
 // LeetCode's exact function signature:
 bool isPalindrome(int x) {
-    // TODO: Write your logic here!
     
-    // HINT 1: Negative numbers can NEVER be palindromes (because of the minus sign). 
     //         You can instantly return false if x < 0.
     
-    // HINT 2: You need to reverse the number 'x'. 
     //         Use a while loop! Extract the last digit using (x % 10), 
     //         and chop off the last digit using (x / 10).
     
-    // HINT 3: Store the reversed number in a variable (e.g., long reversed_num).
     //         If the reversed_num is exactly equal to the original x, return true!
     int original = x;
     int remainder, reversed =0;

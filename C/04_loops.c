@@ -21,7 +21,6 @@ int main() {
     }
     printf("\n");
 
-    // --- TODO: YOUR TURN! ---
     // Use a 'for' loop to print the multiplication table of 5.
     // It should print:
     // 5 x 1 = 5
